@@ -1,11 +1,24 @@
-@media screen and (width >= 320px) {
-	#some-id {
-		color: red;
-	}
+* {
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
 }
 
-@media screen and (width >= 500px) {
-	#some-id {
-		color: red;
-	}
+.navigation {
+	background-color: #E8F5E9;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 5px;
+}
+
+.content-container {
+	padding: 5px;
+	max-width: 1008px;
+	margin: 0 auto;
+}
+h1{
+	font-family: "Quicksand", serif;
+	font-size: 50px;
+	font-weight: 700;
 }
